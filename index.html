@@ -1,0 +1,20 @@
+<!DOCTPY html>
+<html>
+
+<head>
+    <title></title>
+    <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <a-scene vr-mode-ui="enabled: false">
+        <a-camera fov="5" position="30 30 30" rotation="-36 45 0" look-controls></a-camera>
+        <a-entity id="main-entity">
+            <a-box position="0 0 0" rotation="0 0 0" width="0.8" length="1.2" height="0.15" color="#f1cb7e"></a-box>
+            <a-sky color="#140d31" radius="1000"></a-sky>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>

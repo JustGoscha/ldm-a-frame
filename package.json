@@ -1,0 +1,8 @@
+{
+  "name": "ldm-a-frame",
+  "version": "1.0.0",
+  "description": "The Loading Meter Calculator explanation",
+  "main": "index.js",
+  "author": "justGoscha",
+  "license": "MIT"
+}
